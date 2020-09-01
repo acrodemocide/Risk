@@ -1,16 +1,15 @@
 using namespace std;
 #include <iostream>
 #include <string>
-#include <map>
 
-#include "Continent.h"
+#include "Model/Continent.h"
 
 int main()
 {
-	Continent continent("Africa");
-	string name = continent.getName();
+	Continent continent;
+	continent._name = "Africa";
 
 	cout << "Hello World!" << endl;
-	cout << "name: " << name << endl;
+	cout << "name: " << continent._name << endl;
 	return 0;
 }

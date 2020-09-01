@@ -1,12 +1,11 @@
 #pragma once
-#include <string>
 using namespace std;
+#include <string>
 
-class Territory
+#include "Army.h"
+
+struct Territory
 {
-private:
 	string _name;
-public:
-	Territory(string name);
-	string getName();
+	Army _occupyingArmy;
 };

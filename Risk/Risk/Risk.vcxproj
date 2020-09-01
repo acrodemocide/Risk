@@ -146,12 +146,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Continent.cpp" />
+    <ClCompile Include="GameBoard.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Territory.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Army.h" />
     <ClInclude Include="Continent.h" />
+    <ClInclude Include="GameBoard.h" />
     <ClInclude Include="Territory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
