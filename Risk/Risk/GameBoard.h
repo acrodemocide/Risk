@@ -12,7 +12,7 @@ class GameBoard
 {
 private:
 	//Continent_Name _continent_name;
-	vector<Continent_Name, Continent> _continents;
+	vector<Continent> _continents;
 
 	void InitializeAutralia();
 	void InitializeSouthAmerica();

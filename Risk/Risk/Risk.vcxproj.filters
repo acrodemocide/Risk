@@ -42,4 +42,9 @@
       <Filter>Header Files\Model</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="config.json">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>

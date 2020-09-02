@@ -1,0 +1,160 @@
+{
+  "Continents": [
+    {
+      "Name": "Australia",
+      "Territories": [
+        {
+          "Name": "indonesia"
+        },
+        {
+          "Name": "newGuinea"
+        },
+        {
+          "Name": "westernAustralia"
+        },
+        {
+          "Name": "easternAustralia"
+        }
+      ]
+    },
+    {
+      "Name": "SouthAmerica",
+      "Territories": [
+        {
+          "Name": "venezuela"
+        },
+        {
+          "Name": "brazil"
+        },
+        {
+          "Name": "peru"
+        },
+        {
+          "Name": "argentina"
+        }
+      ]
+    },
+    {
+      "Name": "Africa",
+      "Territories": [
+        {
+          "Name": "northAfrica"
+        },
+        {
+          "Name": "egypt"
+        },
+        {
+          "Name": "eastAfrica"
+        },
+        {
+          "Name": "congo"
+        },
+        {
+          "Name": "southAfrica"
+        },
+        {
+          "Name": "madagascar"
+        }
+      ]
+    },
+    {
+      "Name": "NorthAmerica",
+      "Territories": [
+        {
+          "Name": "alaska"
+        },
+        {
+          "Name": "northwestTerritory"
+        },
+        {
+          "Name": "greenland"
+        },
+        {
+          "Name": "alberta"
+        },
+        {
+          "Name": "ontario"
+        },
+        {
+          "Name": "quebec"
+        },
+        {
+          "Name": "westernUnitedStates"
+        },
+        {
+          "Name": "easternUnitedStates"
+        },
+        {
+          "Name": "centralAmerica"
+        }
+      ]
+    },
+    {
+      "Name": "Europe",
+      "Territories": [
+        {
+          "Name": "iceland"
+        },
+        {
+          "Name": "greatBritain"
+        },
+        {
+          "Name": "scandinavia"
+        },
+        {
+          "Name": "ukraine"
+        },
+        {
+          "Name": "northernEurope"
+        },
+        {
+          "Name": "westernEurope"
+        },
+        {
+          "Name": "southernEurope"
+        }
+      ]
+    },
+    {
+      "Name": "Asia",
+      "Territories": [
+        {
+          "Name": "siberia"
+        },
+        {
+          "Name": "yakutsk"
+        },
+        {
+          "Name": "kamchatka"
+        },
+        {
+          "Name": "ural"
+        },
+        {
+          "Name": "irkutsk"
+        },
+        {
+          "Name": "mongolia"
+        },
+        {
+          "Name": "japan"
+        },
+        {
+          "Name": "afghanistan"
+        },
+        {
+          "Name": "china"
+        },
+        {
+          "Name": "middleEast"
+        },
+        {
+          "Name": "india"
+        },
+        {
+          "Name": "siam"
+        }
+      ]
+    }
+  ]
+}
