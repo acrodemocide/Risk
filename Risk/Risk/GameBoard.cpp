@@ -1,5 +1,7 @@
 #include "GameBoard.h"
 
+// TODO: Replace these hard-coded values to use the config data
+//	from the config file.
 void GameBoard::InitializeAutralia()
 {
 	Continent australia;
