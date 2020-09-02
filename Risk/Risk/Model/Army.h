@@ -2,8 +2,10 @@
 #include <string>
 using namespace std;
 
+#include "../Enums.h"
+
 struct Army
 {
-	enum _team {RED, GREEN, BLUE, BLACK, YELLOW};
+	Team _team;
 	int _numberOfTroops;
 };

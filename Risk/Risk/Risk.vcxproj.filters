@@ -26,17 +26,20 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Army.h">
-      <Filter>Header Files\Model</Filter>
-    </ClInclude>
-    <ClInclude Include="Continent.h">
-      <Filter>Header Files\Model</Filter>
-    </ClInclude>
-    <ClInclude Include="Territory.h">
-      <Filter>Header Files\Model</Filter>
-    </ClInclude>
     <ClInclude Include="GameBoard.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Territory.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Army.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Continent.h">
+      <Filter>Header Files\Model</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

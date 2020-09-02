@@ -1,16 +1,28 @@
 #pragma once
 using namespace std;
 #include <vector>
+//#include <map>
 #include <string>
 
 #include "Model\Continent.h"
 
+//enum Continent_Name { AUSTRALIA, SOUTH_AMERICA, AFRICA, NORTH_AMERICA, EUROPE, ASIA };
+
 class GameBoard
 {
 private:
-	vector<Continent> _continents;
+	//Continent_Name _continent_name;
+	vector<Continent_Name, Continent> _continents;
+
+	void InitializeAutralia();
+	void InitializeSouthAmerica();
+	void InitializeAfrica();
+	void InitializeNorthAmerica();
+	void InitializeEurope();
+	void InitializeAsia();
+
 	void InitializeBoard();
 public:
 	GameBoard();
-	Continent getContinent(string name);
+	Continent GetContinent(string name);
 };

@@ -150,10 +150,11 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Army.h" />
-    <ClInclude Include="Continent.h" />
+    <ClInclude Include="Enums.h" />
     <ClInclude Include="GameBoard.h" />
-    <ClInclude Include="Territory.h" />
+    <ClInclude Include="Model\Army.h" />
+    <ClInclude Include="Model\Continent.h" />
+    <ClInclude Include="Model\Territory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

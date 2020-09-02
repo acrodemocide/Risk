@@ -1,0 +1,3 @@
+#pragma once
+enum Team { RED, GREEN, BLUE, BLACK, YELLOW };
+//enum Continent { AUSTRALIA, SOUTH_AMERICA, AFRICA, NORTH_AMERICA, EUROPE, ASIA };
