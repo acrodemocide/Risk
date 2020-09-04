@@ -8,6 +8,12 @@ using namespace std;
 
 //enum Continent_Name { AUSTRALIA, SOUTH_AMERICA, AFRICA, NORTH_AMERICA, EUROPE, ASIA };
 
+struct Move
+{
+	string fromTerritory;
+	string toTerritory;
+};
+
 class GameBoard
 {
 private:
@@ -25,4 +31,5 @@ private:
 public:
 	GameBoard();
 	Continent GetContinent(string name);
+	vector<Move> GetPossibleMoves(Team t);
 };

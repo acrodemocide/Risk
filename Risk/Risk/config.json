@@ -156,5 +156,11 @@
         }
       ]
     }
+  ],
+  "Borders": [
+    {
+      "TerritoryA": "alaska",
+      "TerritoryB": "kamchatka"
+    }
   ]
 }

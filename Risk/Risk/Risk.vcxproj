@@ -146,11 +146,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameAI.cpp" />
     <ClCompile Include="GameBoard.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Enums.h" />
+    <ClInclude Include="GameAI.h" />
     <ClInclude Include="GameBoard.h" />
     <ClInclude Include="Model\Army.h" />
     <ClInclude Include="Model\Continent.h" />

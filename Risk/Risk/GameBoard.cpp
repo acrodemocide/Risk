@@ -188,6 +188,16 @@ GameBoard::GameBoard() : _continents()
 
 Continent GameBoard::GetContinent(string name)
 {
-	// TODO: implement
-	return _continents[0];
+	for (int i = 0; i < _continents.size(); i++)
+	{
+		if (_continents[i]._name == name)
+		{
+			return _continents[i];
+		}
+	}
+}
+
+vector<Move> GetPossibleMoves(Team t)
+{
+	throw "Not implemented";
 }
